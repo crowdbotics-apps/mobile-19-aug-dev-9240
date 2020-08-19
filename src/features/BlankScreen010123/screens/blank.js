@@ -23,8 +23,10 @@ export class _Blank extends React.Component {
   }
 
   state = {
-    Datepicker_2: new Date("08/03/2020"),
-    Datepicker_4: new Date("08/17/2020")
+    Datepicker_2: new Date("08/21/2020"),
+    Datepicker_4: new Date("12/13/2023"),
+    Datepicker_5: new Date("08/03/2020"),
+    Datepicker_6: new Date("08/06/2020")
   }
 
   render = () => (
@@ -165,6 +167,74 @@ export class _Blank extends React.Component {
         }}
         date={this.state.Datepicker_4}
         onSelect={nextValue => this.setState({ Datepicker_4: nextValue })}
+      />
+      <Datepicker
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 12,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontFamily: "Roboto-Regular",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          textDecorationLine: "none",
+          textTransform: "none",
+          lineHeight: 12,
+          letterSpacing: 0
+        }}
+        date={this.state.Datepicker_5}
+        onSelect={nextValue => this.setState({ Datepicker_5: nextValue })}
+      />
+      <Datepicker
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 12,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontFamily: "Roboto-Regular",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          textDecorationLine: "none",
+          textTransform: "none",
+          lineHeight: 12,
+          letterSpacing: 0
+        }}
+        date={this.state.Datepicker_6}
+        onSelect={nextValue => this.setState({ Datepicker_6: nextValue })}
       />
     </View>
   )
