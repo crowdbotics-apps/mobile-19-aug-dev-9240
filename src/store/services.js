@@ -1,5 +1,10 @@
 import axios from "axios"
 import {} from "react-native-dotenv"
+const newConnectorNewConnectorNewConnectorNewConn = axios.create({
+  baseURL:
+    "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/9240/storyboard/10123/",
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
+})
 const newConnector19aug = axios.create({
   baseURL:
     "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/9240/storyboard/10123/",
