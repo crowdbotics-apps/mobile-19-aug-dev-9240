@@ -1,16 +1,12 @@
 import axios from "axios"
-import { NEW_CONNECTOR_19_AUG_TOKEN } from "react-native-dotenv"
+import {} from "react-native-dotenv"
 const newConnector19aug = axios.create({
   baseURL:
     "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/9240/storyboard/10123/",
-  headers: {
-    Accept: "application/json",
-    "Content-Type": "application/json",
-    Authorization: `Bearer ${NEW_CONNECTOR_19_AUG_TOKEN}`
-  }
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 const mobile19augAPI = axios.create({
-  baseURL: "https://mobile-19-aug-dev-9240-prod.herokuapp.com/",
+  baseURL: "https://mobile-19-aug-dev-9240.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 function api_v1_customtext_list() {
