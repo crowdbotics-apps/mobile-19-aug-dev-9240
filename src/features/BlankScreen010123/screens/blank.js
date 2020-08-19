@@ -23,7 +23,7 @@ export class _Blank extends React.Component {
   }
 
   state = {
-    Datepicker_2: new Date("2020-08-19"),
+    Datepicker_2: new Date("08/03/2020"),
     Datepicker_4: new Date("08/17/2020")
   }
 
